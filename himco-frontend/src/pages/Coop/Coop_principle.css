@@ -1,0 +1,58 @@
+.coop_principle{
+    margin:80px 100px;
+}
+
+.coop_principle h1{
+    font-size:40px;
+}
+
+.principle h3{
+    font-size:30px;
+}
+
+.coop_principle h3{
+    font-size:30px;
+}
+
+.definition_text{
+    font-size: 25px;
+}
+
+
+@media only screen and (max-width: 900px) and (min-width: 500px)  {
+    .coop_principle{
+        margin:80px 20px;
+    }
+    .principle h3{
+        font-size:27px;
+    }
+    .coop_principle h1{
+        font-size:30px;
+    }
+    .definition_text{
+        font-size: 22px;
+    }
+    .coop_principle h3{
+        font-size:27px;
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 500px){
+    .coop_principle{
+        margin:80px 20px;
+    }
+    .coop_principle h1{
+        font-size:26px;
+    }
+    .definition_text{
+        font-size: 18px;
+    }
+    .principle h3{
+        font-size:24px;
+    }
+    .coop_principle h3{
+        font-size:24px;
+    }
+  }

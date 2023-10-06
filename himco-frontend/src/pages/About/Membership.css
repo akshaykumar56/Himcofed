@@ -1,0 +1,84 @@
+.membership {
+    margin:80px 100px;
+  }
+
+.membership h1{
+  font-size: 30px;
+}
+
+.membership-table  td {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.membership-table  thead th {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.membership-table thead tr {
+  border-bottom: 1px solid #000;
+}
+.membership-table table tr {
+  border-bottom: 1px solid #000;
+}
+
+
+.membership h2{
+    font-size: 25px;
+  }
+
+  table th{
+    font-size: 17px;
+  }
+
+  table td{
+    font-size: 17px;
+  }
+
+  table{margin:0px 20px;}
+
+  @media only screen and (max-width: 900px) and (min-width:500px) {
+    .membership h1{
+        font-size: 25px;
+      }
+      
+      .membership h2{
+          font-size: 20px;
+        }
+      
+        table th{
+          font-size: 15px;
+        }
+      
+
+        .membership {
+            margin:80px 50px;
+          }
+        table td{
+          font-size: 15px;
+        }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .membership h1{
+        font-size: 22px;
+      }
+
+      .membership{
+        margin:80px 20px;
+      }
+      
+      .membership h2{
+          font-size: 18px;
+        }
+      
+        table th{
+          font-size: 13px;
+        }
+      
+        table td{
+          font-size: 13px;
+        }
+
+        
+  }

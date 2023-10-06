@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gallery_category3s",
+  "info": {
+    "singularName": "gallery-category3",
+    "pluralName": "gallery-category3s",
+    "displayName": "Gallery_Category3"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

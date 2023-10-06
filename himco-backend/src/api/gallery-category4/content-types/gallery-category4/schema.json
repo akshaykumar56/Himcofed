@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gallery_category4s",
+  "info": {
+    "singularName": "gallery-category4",
+    "pluralName": "gallery-category4s",
+    "displayName": "Gallery_Category4"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

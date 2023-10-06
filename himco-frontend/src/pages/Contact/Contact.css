@@ -1,0 +1,54 @@
+.Link{
+    font-size:20px;
+}
+.eng-heading{
+    font-size: 20px;
+}
+.hin-heading{
+    font-size: 20px;
+}
+
+.contact{
+    margin:100px 50px;
+}
+
+.contact-email{
+    width: 500px;
+}
+
+@media only screen and (max-width: 900px) and (min-width:500px) {
+    .Link{
+        font-size:17px;
+    }
+    .contact-email{
+        width: 400px;
+    }
+    .eng-heading{
+        font-size: 17px;
+    }
+    .hin-heading{
+        font-size: 17px;
+    }
+    .contact{
+        margin:60px 20px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .Link{
+        font-size:15px;
+    }
+    .contact-email{
+        width: 280px;
+    }
+    .eng-heading{
+        font-size: 14px;
+    }
+    .hin-heading{
+        font-size: 14px;
+    }
+    .contact{
+        margin:30px 20px;
+    }
+    
+  }

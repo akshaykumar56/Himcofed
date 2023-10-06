@@ -1,0 +1,99 @@
+.About{
+margin:30px;
+font-family: 'Domine', serif;
+}
+
+.About-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.address {
+    font-size: 17px;
+    margin:10px;
+} 
+.About-1{
+    width:65%;
+
+}
+.About-2{
+    width:20%;
+    
+}
+.About-links{
+    width:20%;
+    
+}
+
+
+.heading-about{
+    font-family: 'Domine', serif;
+}
+
+.english-heading-about{
+    font-weight: 700px;
+    font-size: 24px;
+    color: #0033B8;
+}
+
+.hindi-heading-about{
+    font-weight: 400px;
+    font-size: 24px;
+    color: #B80000;
+    margin:10px 0px;
+}
+
+@media only screen and (max-width: 900px) {
+    .About-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .About-1{
+        width:100%;
+        border-bottom: 1px solid black;
+        margin-bottom: 10px;
+    }
+
+    .About-2{
+        width:100%;
+        border-bottom: 1px solid black;
+        margin-bottom: 10px;
+    }
+
+    .english-heading-about{
+        font-size: 18px;
+    }
+    
+    .hindi-heading-about{
+        font-size: 18px;
+        
+    }
+
+    .About-2 h3{
+        font-size: 20px;
+    }
+    .About-2 h6{
+        font-size: 17px;
+    }
+    .About-links {
+        width:100%;
+        margin-bottom: 10px;
+    }
+
+    .address {
+        font-size: 15px;
+    }
+
+    .About-links h3{
+        font-size: 20px;
+        width:100%
+    }
+
+    .About-links h6{
+        font-size: 17px;
+    }
+  }

@@ -1,0 +1,46 @@
+.about-management{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin:80px 100px;
+}
+.about-management h1{
+    font-size: 60px;
+}
+.about-management h3{
+   font-size: 40px;
+}
+.about-management-paragraph{
+    font-size: 20px;
+ }
+@media only screen and (max-width: 900px) and (min-width:500px) {
+    .about-management{
+        margin:80px 20px;
+    }
+    
+    .about-management h1{
+        font-size: 40px;
+    }
+    .about-management h3{
+        font-size: 30px;
+     }
+     .about-management-paragraph{
+         font-size: 17px;
+      }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .about-management{
+        margin:80px 20px;
+    }
+    .about-management h1{
+        font-size: 25px;
+    }
+    .about-management h3{
+        font-size: 20px;
+     }
+     .about-management-paragraph{
+         font-size: 15px;
+      }
+  }

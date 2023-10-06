@@ -1,0 +1,52 @@
+.schemes-table thead th{
+    font-size:18px;
+}
+
+.schemes-table thead td{
+    font-size:18px;
+}
+
+.schemes-table  td {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.schemes-table  thead th {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.schemes-table thead tr {
+    border-bottom: 1px solid #000;
+}
+.schemes-table table tr {
+    border-bottom: 1px solid #000;
+}
+
+
+.schemes-table{
+    width: 80vw;
+}
+
+@media only screen and (max-width: 900px) and (min-width:500px){
+    .schemes-table thead th{
+        font-size:16px;
+    }
+    .schemes-table{
+        width: 90vw;
+    }
+    .schemes-table thead td{
+        font-size:16px;
+    }
+  }
+
+  @media only screen and (max-width: 500px){
+    .schemes-table thead th{
+        font-size:14px;
+    }
+    .schemes-table{
+        width: 90vw;
+    }
+    .schemes-table thead td{
+        font-size:14px;
+    }
+  }

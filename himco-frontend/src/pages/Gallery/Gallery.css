@@ -1,0 +1,56 @@
+.gallery-heading{
+    font-size:128px;
+    font-weight:700;
+    color:#B80000;
+    font-family: 'Domine', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px 50px;
+}
+.carousel-gallery{
+    margin:30px 50px !important;
+}
+.gallery-text{
+    font-family: 'Domine', serif;
+    font-size: 24px;
+    text-align: center;
+    margin:30px 20px;
+}
+
+
+
+@media only screen and (max-width: 900px) and (min-width:500px){
+    .carousel-gallery{
+        margin:30px 10px !important;
+    }
+    .gallery-heading{
+        font-size:74px;
+        margin:30px 20px;
+    }
+    .gallery-text{
+        
+        font-size: 20px;
+        margin:30px 20px;
+    
+    }
+    
+  }
+
+  @media only screen and (max-width: 500px){
+    .carousel-gallery{
+        margin:30px 10px !important;
+    }
+    .gallery-heading{
+        font-size:28px;
+        margin:30px 10px;
+    }
+    .gallery-text{
+        
+        font-size: 12px;
+        margin:30px 20px;
+    
+    }
+    
+  }
+

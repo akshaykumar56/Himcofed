@@ -1,0 +1,16 @@
+.Annual_report{
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 900px) and (min-width:500px){
+    .Annual_report{
+        font-size: 25px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 500px){
+    .training{
+        font-size: 20px;
+    }
+  }

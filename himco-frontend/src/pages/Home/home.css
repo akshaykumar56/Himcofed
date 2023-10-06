@@ -1,0 +1,185 @@
+.component{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+}
+.Persons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 100px;
+    font-family: Domine;
+}
+.personality{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0 0 5px 2px grey;
+    -moz-box-shadow: 0 0 5px 2px grey;
+    box-shadow: 0 0 5px 2px grey;
+    flex-direction: column;
+    min-height: 380px;
+    margin: 0px 50px;
+}
+.personality-image {
+    width: 80%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.personality img{
+    width: 60% !important;
+    height: 200px;
+}
+.carousel-home{
+    width:80%;
+    margin: 0px 20px;
+}
+
+
+.image-1{height:469px;
+    width:40%}
+
+.image-1{
+    background-size: cover;
+  }
+
+
+  .home{
+    margin:0px 40px;
+  }
+.chairman{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0px 100px 0px ;
+}
+
+.home {
+    margin: 0px 20px;
+}
+.message{
+    width:60%;
+    padding:30px 0px;
+    font-family: 'Domine', serif;
+}
+.message2{
+    padding:10px 10px;
+    font-weight: 400px;
+    font-size: 24px;
+    background-color: #D8D8D8;
+    padding:20px 20px;
+}
+.message1{
+    font-weight: bold;
+    font-size: 26px;
+    background-color: #0034B8;
+    color:white;
+    display: inline;
+    padding:5px 10px;
+}
+
+
+.home-image-links{
+    font-family: 'Domine', serif;
+    width: 40%;
+}
+
+/* news-ticker */   
+
+
+.myClassName1 li{
+    list-style: none;
+}
+
+
+.myClassName1{
+height: 379px !important;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+ }
+
+
+ @media only screen and (max-width: 900px) {
+    .component{
+        display: flex;
+        flex-direction: column;
+    }
+    .carousel{
+        width:100%;
+        margin:20px 0px 10px 0px;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 250px;
+     }
+     .home-image-links{
+        width: 100%;
+     }
+     .myClassName1{
+        height: 300px !important;
+        }
+
+        .chairman{
+            flex-direction: column;
+        }
+
+        .image-1{
+            width:100%;
+            height:250px;
+        }
+        .message{
+            width:100%;
+        }
+        .chairman{
+            margin: 50px 0px 50px 0px ;
+        }
+
+        .message2{
+            font-size: 16px;
+        }
+        .Persons{
+            display:flex;
+            flex-direction:column;
+            justify-content: space-between;
+            align-items: center;
+            margin: 50px 20px;
+        }
+        .personality{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 400px;
+            margin: 10px 20px;
+            
+        }
+        .personality-image {
+            width: 60%;
+            margin: 20px;
+        }
+        
+  }
+
+  @media only screen and (max-width: 900px) and (min-width:500px){
+    .personality img{
+        width: 100% !important;
+        height: 300px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .personality img{
+        width: 100% !important;
+        height: 200px;
+    }
+  }

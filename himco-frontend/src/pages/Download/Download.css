@@ -1,0 +1,51 @@
+.download-table thead th{
+    font-size:18px;
+}
+
+.download-table thead td{
+    font-size:18px;
+}
+
+.download-table  td {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.download-table  thead th {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.download-table thead tr {
+    border-bottom: 1px solid #000;
+}
+.download-table table tr {
+    border-bottom: 1px solid #000;
+}
+ 
+.download-table{
+    width: 80vw;
+}
+
+@media only screen and (max-width: 900px) and (min-width:500px){
+    .download-table thead th{
+        font-size:16px;
+    }
+    .download-table{
+        width: 90vw;
+    }
+    .download-table thead td{
+        font-size:16px;
+    }
+  }
+
+  @media only screen and (max-width: 500px){
+    .download-table thead th{
+        font-size:14px;
+    }
+    .download-table{
+        width: 90vw;
+    }
+    .download-table thead td{
+        font-size:14px;
+    }
+  }

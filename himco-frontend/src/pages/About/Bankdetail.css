@@ -1,0 +1,57 @@
+.Bank{
+    margin:65px 40px
+}
+.Bank h1{
+    font-size: 30px;
+}
+.Bank table {
+    border:none;
+    border-collapse: collapse;
+}
+
+.Bank table td{
+    font-size: 16px;
+}
+.Bank table th{
+    font-size: 16px;
+}
+.Bank table td {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.Bank table thead th {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.Bank table thead tr {
+    border-bottom: 1px solid #000;
+}
+.Bank table tr {
+    border-bottom: 1px solid #000;
+}
+
+
+@media only screen and (max-width: 900px) and (min-width:500px) {
+    .Bank table td{
+        font-size: 14px;
+    }
+    .Bank table th{
+        font-size: 14px;
+    }
+    .Bank h1{
+        font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .Bank table td{
+        font-size: 10px;
+    }
+    .Bank table th{
+        font-size: 10px;
+    }
+    .Bank h1{
+        font-size: 15px;
+    }
+  }
