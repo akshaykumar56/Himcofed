@@ -52,7 +52,7 @@ function NavScrollExample(props) {
       <div className='home-image-links' style={{margin:'50px 0px'}}>
       <div style={{display:'flex',justifyContent:'center',alignItems:'center',backgroundColor:'#B80000',height:'60px',color:'white',fontSize:'24px'}}>NOTIFICATIONS</div>
     {arr.length!=='0'?<NewsTicker 
-    key={2}
+    key={Math.random()}
     rowHeight = {30}
     maxRows = {16}
     speed = {2000}
@@ -63,7 +63,7 @@ function NavScrollExample(props) {
     id = "myId"
     className = "myClassName1 myClassName2"
     style = {{margin:'0px',backgroundColor:'#71AEDA'}}>
-    {arr.map((element)=>{return <a style={{color:'black',textDecoretion:'none'}} href={`${process.env.REACT_APP_SERVERNAME}${element.attributes.Download.data[0].attributes.url}`}><div key={element.id} style={{display:'flex',flexDirection:'row',alignItems:'center',marginTop:'15px'}}><img src={Img2} alt='new'/><div style={{width:'70%'}}><div style={{marginBottom:'0px',display:'flex',justifyContent:'space-between'}}><div>{element.attributes.Heading}</div><div style={{fontSize:'12px'}}>{formatMyDate(element.attributes.createdAt)}</div></div><div style={{fontSize:'12px'}}>{element.attributes.Description.slice(0,25)}...</div></div></div></a>})}
+    {arr.map((element)=>{return element.attributes.Download.data?<a style={{color:'black',textDecoretion:'none'}} href={`${process.env.REACT_APP_SERVERNAME}${element.attributes.Download.data[0].attributes.url}`}><div key={element.id} style={{display:'flex',flexDirection:'row',alignItems:'center',marginTop:'15px'}}><img src={Img2} alt='new'/><div style={{width:'70%'}}><div style={{marginBottom:'0px',display:'flex',justifyContent:'space-between'}}><div>{element.attributes.Heading}</div><div style={{fontSize:'12px'}}>{formatMyDate(element.attributes.createdAt)}</div></div><div style={{fontSize:'12px'}}>{element.attributes.Description.slice(0,25)}...</div></div></div></a>:<div key={element.id} style={{display:'flex',flexDirection:'row',alignItems:'center',marginTop:'15px'}}><img src={Img2} alt='new'/><div style={{width:'70%'}}><div style={{marginBottom:'0px',display:'flex',justifyContent:'space-between'}}><div>{element.attributes.Heading}</div><div style={{fontSize:'12px'}}>{formatMyDate(element.attributes.createdAt)}</div></div><div style={{fontSize:'12px'}}>{element.attributes.Description.slice(0,25)}...</div></div></div>})}
     
 </NewsTicker>:<div>No Notifications</div>}
    <div style={{display:'flex',alignItems:'center',justifyContent:'flex-end',backgroundColor:'#71AEDA',padding:'10px 10px',fontSize:'14px'}}><Link className="nav-link" to="/notification" style={{color:'white'}}>View All &gt;</Link></div>
