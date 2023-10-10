@@ -1,5 +1,5 @@
 import './About.css'
-function NavScrollExample(props) {
+function About(props) {
 
   return (
     <div className='about4'>
@@ -20,4 +20,4 @@ function NavScrollExample(props) {
   );
 }
 
-export default NavScrollExample;
+export default About;

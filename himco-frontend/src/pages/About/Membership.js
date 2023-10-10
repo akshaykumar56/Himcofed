@@ -1,6 +1,6 @@
 import './Membership.css'
 
-function NavScrollExample(props) {
+function Membership(props) {
   let array = [{
      SrNo:'1',
      Name0fSociety :"The Solan District Co-operative Development Federation Ltd; Solan"
@@ -201,5 +201,5 @@ function NavScrollExample(props) {
 
 
 
-export default NavScrollExample;
+export default Membership;
 

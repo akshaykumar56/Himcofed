@@ -1,6 +1,6 @@
 import './About_coop.css'
 
-function NavScrollExample(props) {
+function AboutCoop(props) {
 
   return (
     <div className='about_coop_main' style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
@@ -29,5 +29,5 @@ function NavScrollExample(props) {
 
 
 
-export default NavScrollExample;
+export default AboutCoop;
 

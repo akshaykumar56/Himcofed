@@ -77,7 +77,7 @@
 // export default NavScrollExample;
 
 import './History.css';
-function NavScrollExample(props) {
+function History(props) {
 
   return (
    <>
@@ -96,5 +96,5 @@ function NavScrollExample(props) {
 
 
 
-export default NavScrollExample;
+export default History;
 

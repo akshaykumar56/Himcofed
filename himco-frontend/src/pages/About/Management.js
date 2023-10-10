@@ -1,6 +1,6 @@
 import './About.css'
 import './Management.css'
-function NavScrollExample(props) {
+function Management(props) {
 
   return (
     <div className='about-management'>
@@ -18,13 +18,11 @@ function NavScrollExample(props) {
          As per merit cum seniority list Sh. Gaurav Jarial Lecturer as holding & act the Post of Secretary without any consequential benefit since September, 2019   
 </div>
     </div>
-
-
     </div>
   );
 }
 
 
 
-export default NavScrollExample;
+export default Management;
 

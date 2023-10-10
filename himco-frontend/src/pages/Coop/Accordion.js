@@ -1,6 +1,6 @@
 import Accordion from 'react-bootstrap/Accordion';
 import './Accordion.css'
-function BasicExample() {
+function Accordion1() {
   return (
     <Accordion defaultActiveKey="0" >
 
@@ -53,4 +53,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default Accordion1;

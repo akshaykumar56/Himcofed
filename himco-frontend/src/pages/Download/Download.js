@@ -1,6 +1,6 @@
 import './Download.css'
 import { useState,useEffect } from 'react';
-function NavScrollExample(props) {
+function Download(props) {
     let[arr,setArr]=useState([])
     useEffect(() => {
       let fetchData=async ()=>{
@@ -16,7 +16,8 @@ function NavScrollExample(props) {
     return new Date(value).toLocaleDateString(locale);
 }
   return (
-    <div style={{margin:'90px 10px',display:'flex',alignItems:'center',justifyContent:'center'}}>
+    <>
+    {arr.length!==0?<div style={{margin:'90px 10px',display:'flex',alignItems:'center',justifyContent:'center'}}>
     <table className='download-table'>
         <thead style={{backgroundColor:'#B80000'}}>
           <tr style={{color:'white'}}>
@@ -34,9 +35,14 @@ function NavScrollExample(props) {
     })}
    </tbody>
 </table>
+    </div>:<div style={{margin:'90px 10px',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}}>
+    <div className='Error' style={{textAlign:'center',fontFamily:'Domine',display:'flex',justifyContent:'center',alignItems:'center',width:'100%',color:'black',fontSize:'30px'}}>
+   Server Side Error
     </div>
+    </div>}
+    </>
   );
 }
 
-export default NavScrollExample;
+export default Download;
 

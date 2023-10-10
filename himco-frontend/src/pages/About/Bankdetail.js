@@ -1,6 +1,6 @@
 import './Bankdetail.css'
 
-function NavScrollExample(props) {
+function BankDetail(props) {
     let arr=[{'No':'1','Name':'Himachal Pradesh State Cooperative Development Federation Ltd','Account':'0427000106713010','Address':'Punjab National Bank, The Mall Shimla-171001','IFSC':'PUNB0042700'},
     {'No':'2','Name':'Himachal Pradesh State Cooperative Development Federation Ltd','Account':'438011958','Address':'  Himachal Pradesh State Cooperative Bank, The Mall Shimla -171001','IFSC':'HPSC0000438'}
   ]
@@ -38,5 +38,5 @@ Development Federation Ltd (HIMCOFED)</h1>
   );
 }
 
-export default NavScrollExample;
+export default BankDetail;
 

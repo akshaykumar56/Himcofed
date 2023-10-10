@@ -1,5 +1,5 @@
 import './NotFound.css'
-function NavScrollExample(props) {
+function NotFound(props) {
 
   return (
    <>
@@ -10,5 +10,5 @@ function NavScrollExample(props) {
   );
 }
 
-export default NavScrollExample;
+export default NotFound;
 

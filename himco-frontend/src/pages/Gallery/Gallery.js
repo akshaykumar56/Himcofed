@@ -1,6 +1,6 @@
 import './Gallery.css'
 import  Carousel  from './Corousel';
-function NavScrollExample() {
+function Gallery() {
   
   return (
     <div className="Gallery">
@@ -19,4 +19,4 @@ function NavScrollExample() {
   );
 }
 
-export default NavScrollExample;
+export default Gallery;

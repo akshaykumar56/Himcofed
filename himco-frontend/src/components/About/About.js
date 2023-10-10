@@ -1,6 +1,7 @@
 import './About.css'
 import phone from './phone.png'
 import shape from './shape.png'
+import {Link} from 'react-router-dom'
 function NavScrollExample() {
   return (
     <div className="About">
@@ -20,19 +21,19 @@ function NavScrollExample() {
 
         
         <div className='About-2'>
-        <h3 style={{color:'#B80000'}}>About Us</h3>
-        <h6><a href='/about/about' style={{color:'black'}}>About HIMCOFED</a></h6>
-        <h6><a href="/about/management" style={{color:'black'}}>Management of HIMCOFED</a></h6>
-        <h6><a href="/about/membership" style={{color:'black'}}>Membership</a></h6>
-        <h6><a href="/about/bankdetails" style={{color:'black'}}>Bank A/C Details</a></h6>
+        <h3 style={{cLinklor:'#B80000'}}>About Us</h3>
+        <h6><Link  onClick={()=>{window.scroll(0,0)}} to='/about/about' style={{color:'black'}}>About HIMCOFED</Link></h6>
+        <h6><Link  onClick={()=>{window.scroll(0,0)}} to="/about/management" style={{color:'black'}}>Management of HIMCOFED</Link></h6>
+        <h6><Link  onClick={()=>{window.scroll(0,0)}} to="/about/membership" style={{color:'black'}}>Membership</Link></h6>
+        <h6><Link  onClick={()=>{window.scroll(0,0)}} to="/about/bankdetails" style={{color:'black'}}>Bank A/C Details</Link></h6>
         </div>
 
 
         <div className='About-links'>
         <h3 style={{color:'#B80000'}}>Useful Links</h3>
-        <h6><a href='/annual_report' style={{color:'black'}}>Reports</a></h6>
-        <h6><a href='/gallery' style={{color:'black'}}>Gallery</a></h6>
-        <h6><a href='/contact' style={{color:'black'}}>Contact Us</a></h6>
+        <h6><Link  onClick={()=>{window.scroll(0,0)}} to='/annual_report' style={{color:'black'}}>Reports</Link ></h6>
+        <h6><Link  onClick={()=>{window.scroll(0,0)}} to='/gallery' style={{color:'black'}}>Gallery</Link ></h6>
+        <h6><Link  onClick={()=>{window.scroll(0,0)}} to='/contact' style={{color:'black'}}>Contact Us</Link ></h6>
         </div>
         </div>
         </div>

@@ -1,6 +1,6 @@
 import './Contact.css'
 
-function NavScrollExample(props) {
+function Contact(props) {
 
   return (
     <div className='contact' style={{display:'flex',flexDirection:'column',justifyContent:'flex-start'}}>
@@ -19,4 +19,4 @@ function NavScrollExample(props) {
   );
 }
 
-export default NavScrollExample;
+export default Contact;

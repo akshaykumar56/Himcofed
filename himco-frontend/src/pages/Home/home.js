@@ -9,11 +9,12 @@ import Person3 from './3.png'
 import Image1 from './carousel-image/1.jpg'
 import Image2 from './carousel-image/2.jpg'
 import Image3 from './carousel-image/3.jpg'
-function NavScrollExample(props) {
+function Home(props) {
   let n_arr=[...props.arr]
   console.log(n_arr)
   n_arr.reverse()
   let arr=n_arr.slice(0,6)
+  console.log(arr)
   function formatMyDate(value, locale = 'en-GB') {
     return new Date(value).toLocaleDateString(locale);
 }
@@ -51,7 +52,7 @@ function NavScrollExample(props) {
 </div>
       <div className='home-image-links' style={{margin:'50px 0px'}}>
       <div style={{display:'flex',justifyContent:'center',alignItems:'center',backgroundColor:'#B80000',height:'60px',color:'white',fontSize:'24px'}}>NOTIFICATIONS</div>
-    {arr.length!=='0'?<NewsTicker 
+    {arr.length!==0?<NewsTicker 
     key={Math.random()}
     rowHeight = {30}
     maxRows = {16}
@@ -65,7 +66,7 @@ function NavScrollExample(props) {
     style = {{margin:'0px',backgroundColor:'#71AEDA'}}>
     {arr.map((element)=>{return element.attributes.Download.data?<a style={{color:'black',textDecoretion:'none'}} href={`${process.env.REACT_APP_SERVERNAME}${element.attributes.Download.data[0].attributes.url}`}><div key={element.id} style={{display:'flex',flexDirection:'row',alignItems:'center',marginTop:'15px'}}><img src={Img2} alt='new'/><div style={{width:'70%'}}><div style={{marginBottom:'0px',display:'flex',justifyContent:'space-between'}}><div>{element.attributes.Heading}</div><div style={{fontSize:'12px'}}>{formatMyDate(element.attributes.createdAt)}</div></div><div style={{fontSize:'12px'}}>{element.attributes.Description.slice(0,25)}...</div></div></div></a>:<div key={element.id} style={{display:'flex',flexDirection:'row',alignItems:'center',marginTop:'15px'}}><img src={Img2} alt='new'/><div style={{width:'70%'}}><div style={{marginBottom:'0px',display:'flex',justifyContent:'space-between'}}><div>{element.attributes.Heading}</div><div style={{fontSize:'12px'}}>{formatMyDate(element.attributes.createdAt)}</div></div><div style={{fontSize:'12px'}}>{element.attributes.Description.slice(0,25)}...</div></div></div>})}
     
-</NewsTicker>:<div>No Notifications</div>}
+</NewsTicker>:<div style={{height:'375px',display:'flex',justifyContent:'center',alignItems:'center',fontSize:'18px'}}>No Notifications</div>}
    <div style={{display:'flex',alignItems:'center',justifyContent:'flex-end',backgroundColor:'#71AEDA',padding:'10px 10px',fontSize:'14px'}}><Link className="nav-link" to="/notification" style={{color:'white'}}>View All &gt;</Link></div>
  </div>
  </div>
@@ -96,4 +97,4 @@ Co-operation, Jal Shakti, Transport, Language, Arts and Culture Minister</p>
   );
 }
 
-export default NavScrollExample;
+export default Home;

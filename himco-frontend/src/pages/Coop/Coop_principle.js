@@ -1,6 +1,6 @@
 import './Coop_principle.css'
 import Accordion from './Accordion'
-function NavScrollExample(props) {
+function CoopPrinciple(props) {
 
   return (
     <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
@@ -38,5 +38,5 @@ function NavScrollExample(props) {
 
 
 
-export default NavScrollExample;
+export default CoopPrinciple;
 
