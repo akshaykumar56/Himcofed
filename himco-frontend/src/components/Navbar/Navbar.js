@@ -119,7 +119,7 @@ const handelClick=(text)=>{
         </div>
         <div className='search' style={{width:'230px'}}>
          {/* {A===0 && <input type='text' onKeyDown={handleKeyDown} onChange={handleOnChange}/>} */}
-         <input type='text' onKeyDown={handleKeyDown} onChange={handleOnChange}/>
+         <input type='text' placeholder='search' onKeyDown={handleKeyDown} onChange={handleOnChange}/>
          <div style={{cursor:'pointer'}} onClick={()=>handelClick(text)}><div className='search-button' style={{backgroundColor:'#B80000',color:'white',display:'flex',justifyContent:'center',alignItems:'center',width:'38px',height:'30px'}}> <span className="material-symbols-outlined">search</span></div></div>
         </div>
         </div>

@@ -3,8 +3,8 @@ import './Achievments.css'
 function NavScrollExample() {
   return (
     <div className='achievements'>
-      <div className='image' style={{backgroundImage:`url(${Img1})`,backgroundRepeat:"no-repeat",backgroundSize:'cover'}}></div>
-      <div className='image' style={{backgroundImage:`url(${Img1})`,backgroundRepeat:"no-repeat",backgroundSize:'cover'}}></div>
+      <div className='image' style={{backgroundImage:`url(${Img1})`,backgroundRepeat:"no-repeat",backgroundSize:'cover',backgroundPosition:'center'}}></div>
+      <div className='image' style={{backgroundImage:`url(${Img1})`,backgroundRepeat:"no-repeat",backgroundSize:'cover',backgroundPosition:'center'}}></div>
     </div>
   );
 }

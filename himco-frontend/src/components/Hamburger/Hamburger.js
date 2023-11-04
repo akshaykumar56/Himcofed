@@ -154,7 +154,7 @@ const handelClick=(text)=>{
   <div className='Hamburger' style={{backgroundColor:'#0033B8',padding:'5px 0px 0px 30px'}}>
   <div id="mySidenav" className="sidenav" style={{backgroundColor:'#0034B8',color:'white',opacity:'0.955',zIndex:'10'}}>
   <div style={{margin:'20px 20px 10px 20px',display:'flex',justifyContent:'center',alignItems:'center'}}>
-         <input type='text' onChange={handleOnChange} style={{width:'170px'}}/>
+         <input type='text' placeholder='search' onChange={handleOnChange} style={{width:'170px'}}/>
          <div onClick={()=>handelClick(text)}><div onClick={closeNav} className='search-button' style={{backgroundColor:'#B80000',color:'white',display:'flex',justifyContent:'center',alignItems:'center',width:'38px',height:'30px'}}> <span className="material-symbols-outlined">search</span></div></div>
   </div>
   <Link  className="closebtn" onClick={closeNav}>&times;</Link>
