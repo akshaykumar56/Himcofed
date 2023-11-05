@@ -31,6 +31,9 @@ const AboutCoop = React.lazy(() => import('./pages/Coop/Coop_principle'));
 //Contact
 const Contact = React.lazy(() => import('./pages/Contact/Contact'));
 
+//Admin Message
+const Admin = React.lazy(() => import('./pages/Administrator/Admin'));
+
 //Program
 const Program = React.lazy(() => import('./pages/Program/Program'));
 
@@ -116,7 +119,11 @@ function App() {
           <Route exact path="/schemes" element={<React.Suspense fallback={<>...</>}>
               <Schemes/>
             </React.Suspense>}/>
+            <Route exact path="/admin" element={<React.Suspense fallback={<>...</>}>
+              <Admin/>
+            </React.Suspense>}/>
           <Route exact path="/not_found" element={<NotFound/>}/>
+
         </Routes>
     <Achievments/>
     <About/>

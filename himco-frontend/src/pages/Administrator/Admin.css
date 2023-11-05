@@ -1,0 +1,94 @@
+.Admin-image-1{
+    height:300px;
+     width:30%;
+     background-image:linear-gradient(360deg,black ,transparent), url('./chairman.png');
+    background-size: cover;
+  }
+
+.Admin-chairman{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px 100px 0px ;
+    justify-content: center;
+    align-items: center;
+}
+
+.Deputy-Registrar{
+    font-size: 16px;
+}
+
+.Deputy-Registrar-Name{
+    font-size: 25px;
+}
+.Admin-message{
+    width:80%;
+    padding:30px 0px;
+    font-family: 'Domine', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Admin-message2{
+    padding:10px 10px;
+    font-weight: 400px;
+    font-size: 20px;
+    background-color: #D8D8D8;
+    padding:20px 20px;
+
+}
+.Admin-message1{
+    width: 100%;
+    font-weight: bold;
+    font-size: 26px;
+    background-color: #0034B8;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px 10px;
+}
+
+@media only screen and (max-width: 900px) and (min-width:540px) {
+    .Admin-image-1{
+        height:300px;
+         width:50%;
+         
+      } 
+      .Deputy-Registrar{
+        font-size: 15px;
+    }
+    
+    .Deputy-Registrar-Name{
+        font-size: 22px;
+    }
+    .Admin-message2{
+        font-size: 17px;
+    }
+    .Admin-message1{
+        font-size: 23px;
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 540px) {
+    .Admin-image-1{
+        height:300px;
+         width:80%;
+         
+      } 
+      .Deputy-Registrar{
+        font-size: 13px;
+    }
+    
+    .Deputy-Registrar-Name{
+        font-size: 20px;
+    }
+    .Admin-message2{
+        font-size: 15px;
+    }
+    .Admin-message1{
+        font-size: 20px;
+    }
+  }
