@@ -151,7 +151,7 @@ const handelClick=(text)=>{
 }
   return (
     <>
-  <div className='Hamburger' style={{backgroundColor:'#0033B8',padding:'5px 0px 0px 30px'}}>
+  <div className='Hamburger' style={{backgroundColor:'#0033B8',padding:'5px 0px 5px 0px',justifyContent:'space-around',flexDirection:'row'}}>
   <div id="mySidenav" className="sidenav" style={{backgroundColor:'#0034B8',color:'white',opacity:'0.955',zIndex:'10'}}>
   <div style={{margin:'20px 20px 10px 20px',display:'flex',justifyContent:'center',alignItems:'center'}}>
          <input type='text' placeholder='search' onChange={handleOnChange} style={{width:'170px'}}/>
@@ -211,6 +211,7 @@ const handelClick=(text)=>{
   <div onClick={closeNav}><Link  to="/contact" style={{color:'white',fontSize:'18px',width:'250px'}}>Contact Us</Link></div>
   <div onClick={closeNav}><Link  to="/downloads" style={{color:'white',fontSize:'18px'}}>Downloads</Link></div>
   <div onClick={closeNav}><Link  to="/schemes" style={{color:'white',fontSize:'18px'}}>Schemes</Link></div>
+  
 </div>
 
  {/* Use any element to open the sidenav  */}
@@ -219,6 +220,11 @@ const handelClick=(text)=>{
 <div style={{height:'3px',width:'20px',backgroundColor:'white',margin:'3px'}}></div>
 <div style={{height:'3px',width:'20px',backgroundColor:'white',margin:'3px'}}></div>
 </button>
+<div></div>
+<div></div>
+<a className='Ecommerce-Link-hamburger' href='https://celadon-vacherin-0fb6a1.netlify.app/' target='_blank' style={{color:'white',textDecoration:'none'}}><div style={{background:'rgb(184, 0, 0)',padding:'5px 5px',borderRadius:'5px',fontSize:'14px'}}>
+  E-commerce</div></a>
+
 </div>
     </>
   );

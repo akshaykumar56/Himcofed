@@ -6,8 +6,9 @@ function NavScrollExample() {
   return (
     <>
   <nav className="navbar navbar-expand-lg " style={{height:'54px'}}>
-
+ 
   <div className="collapse collapse-navbar navbar-collapse" id="navbarSupportedContent" style={{height:'54px'}}>
+    <div>
     <ul className="navbar-nav mr-auto">
       <li key={1} className="nav-item active">
         <Link className="nav-link" to="/" style={{color:'white'}}>Home<span className="sr-only">(current)</span></Link>
@@ -85,6 +86,9 @@ function NavScrollExample() {
         <Link style={{color:'white'}} className="nav-link" to="/schemes">Schemes<span className="sr-only">(current)</span></Link>
       </li>
     </ul>
+  </div>
+  <a className='Ecommerce-Link' href='https://celadon-vacherin-0fb6a1.netlify.app/' target='_blank' style={{color:'white',textDecoration:'none'}}><div style={{background:'rgb(184, 0, 0)',padding:'5px 5px',borderRadius:'5px'}}>
+  E-commerce</div></a>
   </div>
 </nav>
     

@@ -13,6 +13,7 @@
   }
 
 
+
   #hamberger-list-items-4{
     border-top: 5px solid #ff9800;
   }
@@ -73,7 +74,7 @@
   
   @media only screen and (max-width: 1000px) {
     .Hamburger{
-    display: block;
+    display: flex;
   }
   }
 

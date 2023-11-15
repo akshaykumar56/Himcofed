@@ -4,17 +4,6 @@ import {useState} from 'react'
 import {Link,useNavigate} from 'react-router-dom'
 function NavScrollExample() {
   var button=document.getElementsByClassName('search-button')[0];
-//   let [A,setA]=useState(1);
-//   function show_hide1() {
-//     if(A===0 && text.length===0){
-//       setA(1)
-//     }
-//     else{
-//       setA(0)
-//     }
-//  }
-
-// onClick={show_hide1}
 
 const handleKeyDown = (e) => {
   if (e.key === 'Enter') {
@@ -118,7 +107,6 @@ const handelClick=(text)=>{
           </div>
         </div>
         <div className='search' style={{width:'230px'}}>
-         {/* {A===0 && <input type='text' onKeyDown={handleKeyDown} onChange={handleOnChange}/>} */}
          <input type='text' placeholder='search' onKeyDown={handleKeyDown} onChange={handleOnChange}/>
          <div style={{cursor:'pointer'}} onClick={()=>handelClick(text)}><div className='search-button' style={{backgroundColor:'#B80000',color:'white',display:'flex',justifyContent:'center',alignItems:'center',width:'38px',height:'30px'}}> <span className="material-symbols-outlined">search</span></div></div>
         </div>

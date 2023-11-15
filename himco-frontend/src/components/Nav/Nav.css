@@ -5,10 +5,14 @@
     font-family: 'Domine', serif;
     font-size: 18px;
     height: 100%;
+    display: flex;
+    justify-content: space-between;
 }
-
+.dropdown-item{
+    font-size: 15px !important;
+}
 .nav-link{
-    font-size: 18px ;
+    font-size: 16px ;
 }
 .navbar{
     padding:0px 0px;
@@ -88,6 +92,10 @@
     border-bottom: 0.5px solid black;
 }
 
+.Ecommerce-Link{
+    font-size: 16px;
+}
+
 .dropdown-toggle{
     position:relative; 
 }
@@ -103,10 +111,14 @@
     .navbar{
         display: none;
     }
+    
   }
 
   @media only screen and (max-width: 1150px)  {
     .nav-link{
-        font-size: 15px ;
+        font-size: 14px ;
+    }
+    .Ecommerce-Link{
+        font-size: 11px;
     }
   }
